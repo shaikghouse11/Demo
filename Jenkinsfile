@@ -1,4 +1,4 @@
-// @Library('stratusjenkins-sharedlibrary@feature/customemailtemplate') _
+/* @Library('stratusjenkins-sharedlibrary@feature/customemailtemplate') _
 @Library('stratus-sharedlibrary@chje') _
 import com.albertsons.stratus.jenkins.MsgLogger
 
@@ -311,9 +311,9 @@ def get_instance_usage_details() {
 //   env.CUSTOM_LOG_NAME = "CF_Instance_Usage_Details_CL"
 //	 env.ENVIRONMENT = USER_ENV_NAME
 //	post_logs_to_log_analytics()				
-}
-	
-node('Jenkins_Agent1') {
+} */
+
+node() {
 	
 	properties([
 		pipelineTriggers([cron('''
