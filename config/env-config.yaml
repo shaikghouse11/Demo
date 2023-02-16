@@ -1,0 +1,42 @@
+pcf:
+  foundations:
+    sb-west:
+      appsman_url	: https://api.system.sb.stratus.albertsons.com
+      cf_cred_id	: stratusjenkins-cf-sb-user
+      opsman_url	: opsman.sb.stratus.albertsons.com
+      opsman_cred_id	: stratusjenkins-cf-om-sbwest-user
+      opsman_user	: ubuntu
+      opsman_key	: /opsman-key/opsman-sbwest
+      log_cred_id	: stratusjenkins-cf-sb-user
+    np-west:
+      appsman_url	: https://api.system.np.stratus.albertsons.com
+      cf_cred_id	: stratusjenkins-cf-np-user
+      opsman_url	: opsman.np.stratus.albertsons.com
+      opsman_cred_id	: stratusjenkins-cf-om-npwest-user		
+      opsman_user	: ubuntu
+      opsman_key	: /opsman-key/opsman-npwest
+      log_cred_id	: stratusjenkins-cf-log-npwest-user
+    pd-west:
+      appsman_url	: https://api.system.prod.stratus.albertsons.com
+      cf_cred_id	: stratusjenkins-cf-log-pdwest-user
+      opsman_url	: opsman.prod.stratus.albertsons.com
+      opsman_cred_id	: stratusjenkins-cf-om-pdwest-user
+      opsman_user	: ubuntu
+      opsman_key	: /opsman-key/opsman-pdwest
+      log_cred_id	: stratusjenkins-cf-log-pdwest-user   
+    np-east:
+      appsman_url	: https://api.system.npeast.stratus.albertsons.com
+      cf_cred_id	: stratusjenkins-cf-np-east-user
+      opsman_url	: opsman.npeast.stratus.albertsons.com
+      opsman_cred_id	: stratusjenkins-cf-om-npeast-user
+      opsman_user	: ubuntu
+      opsman_key	: /opsman-key/opsman-npeast
+      log_cred_id	: stratusjenkins-cf-np-east-user
+    pd-east:
+      appsman_url	: https://api.system.pdeast.stratus.albertsons.com
+      cf_cred_id	: stratusjenkins-cf-prod-east-user
+      opsman_url	: opsman.pdeast.stratus.albertsons.com
+      opsman_cred_id	: stratusjenkins-cf-om-pdeast-user
+      opsman_user	: ubuntu
+      opsman_key	: /opsman-key/opsman-pdeast
+      log_cred_id	: stratusjenkins-cf-prod-east-user
